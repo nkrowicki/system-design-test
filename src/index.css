@@ -13,3 +13,42 @@ body {
   padding: 5px;
   margin: 5px;
 }
+
+
+/* Skeleton styles */
+.skeletonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.skeletonCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skeletonImage {
+  width: 100%;
+  height: 200px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.skeletonText {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.skeletonText.short {
+  width: 60%;
+}

@@ -1,0 +1,8 @@
+.address-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    font-size: 0.875rem;
+    color: #333;;
+}
+  
